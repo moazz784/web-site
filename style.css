@@ -326,11 +326,18 @@ span{
     }
     .mohamed{
         flex-direction: row;
+        justify-content: space-evenly;
         padding-bottom: 30px;
     }
     h2{
         font-size: 16px;
         padding-right: 20px;
+    }
+    .salah .one{
+        padding-left: 70px;
+    }
+    .mohamed h2{
+        padding-top: 15px;
     }
     
     
@@ -339,10 +346,16 @@ span{
     .mohamed i{
         display: block;
         padding-left: 30px;
-        font-size: 18px;
+        font-size: 21px;
+        padding-top: 35px;
+        /* justify-content: center;
+        align-items: center;
+        margin-top: 20px; */
     }
     .beauty a{
         display: none;
     }
 }
-
+.line{
+    border: 2px solid white;
+}
